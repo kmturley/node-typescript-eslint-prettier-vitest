@@ -1,0 +1,32 @@
+{
+  "name": "node-typescript-eslint-prettier-vitest",
+  "version": "1.0.0",
+  "description": "Example starter project using Node, TypeScript, eslint, prettier and vitest",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx ./src/main.ts",
+    "format": "prettier ./**/*.ts --write",
+    "lint": "eslint ./**/*.ts",
+    "test": "vitest run ./tests"
+  },
+  "author": "kmturley",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "typescript",
+    "eslint",
+    "prettier",
+    "vitest"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.2.0",
+    "prettier": "^3.2.5",
+    "tsx": "^4.10.1",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.8.0",
+    "vitest": "^1.6.0"
+  }
+}
