@@ -2,19 +2,17 @@
 
 Example starter project using:
 
-* NodeJS 20.x
-* TypeScript 5.x
-* eslint 8.x
-* prettier 3.x
-* vitest 1.x
-
+- NodeJS 20.x
+- TypeScript 5.x
+- eslint 8.x
+- prettier 3.x
+- vitest 1.x
 
 ## Installation
 
 Install dependencies using:
 
     npm install
-
 
 ## Usage
 
@@ -28,7 +26,6 @@ Run dev commands using:
 Create a build using:
 
     npm run build
-
 
 ## Contact
 
