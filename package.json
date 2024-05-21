@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Example starter project using Node, TypeScript, eslint, prettier and vitest",
   "type": "module",
+  "main": "./main.js",
+  "exports": "./build/main.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx ./src/main.ts",
@@ -19,6 +21,9 @@
     "prettier",
     "vitest"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@eslint/js": "^9.2.0",
     "eslint": "^8.57.0",
