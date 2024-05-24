@@ -5,6 +5,10 @@
   "type": "module",
   "main": "./main.js",
   "exports": "./build/main.js",
+  "types": "./build/main.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "dev": "tsx ./src/main.ts",
