@@ -1,6 +1,6 @@
 # node-typescript-eslint-prettier-vitest
 
-Example starter project using:
+Example ESM starter project using:
 
 - NodeJS 20.x
 - TypeScript 5.x

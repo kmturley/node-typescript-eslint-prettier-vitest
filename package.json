@@ -1,7 +1,7 @@
 {
   "name": "node-typescript-eslint-prettier-vitest",
   "version": "1.0.0",
-  "description": "Example starter project using Node, TypeScript, eslint, prettier and vitest",
+  "description": "Example ESM starter project using Node, TypeScript, eslint, prettier and vitest",
   "type": "module",
   "main": "./build/main.js",
   "exports": "./build/main.js",
