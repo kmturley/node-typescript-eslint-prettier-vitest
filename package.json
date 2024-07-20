@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Example starter project using Node, TypeScript, eslint, prettier and vitest",
   "type": "module",
-  "main": "./main.js",
+  "main": "./build/main.js",
   "exports": "./build/main.js",
   "types": "./build/main.d.ts",
   "files": [
